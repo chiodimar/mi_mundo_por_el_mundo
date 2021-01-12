@@ -1,0 +1,80 @@
+@import "variables";
+
+h1{
+    color:$color;
+    font-family: 'Josefin Sans','Lato', sans-serif;
+    text-align: center; 
+    font-size:2em;
+}
+
+h2{
+      color: $color;
+      font-family: 'Josefin Sans', sans-serif;
+      text-align: center;
+      font-size: 1.3em;
+  }
+h3{
+      color: $color;
+      font-family: 'Josefin Sans', sans-serif;
+      text-align: center;
+  }
+  
+h4{
+    color:$color;
+    font-family: 'Josefin Sans','Lato', sans-serif;
+    text-align: center; 
+    font-size:0.9em;
+}
+  
+
+li{
+    list-style: none;
+    font-family: 'Josefin Sans', sans-serif;
+    color:gray;
+}
+a{
+    color: #000;
+  text-decoration: none;
+  font-family: 'Josefin Sans', sans-serif;
+}
+a:hover{
+    
+    font-weight: 600;
+    text-decoration: none;
+    /* para que subraye los vinvulos del menu, pero se aplica a todo.
+    border-bottom:  1px solid #000;
+    padding-bottom: 15px;*/
+}
+header{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top:0px;
+    background-color: white;
+    z-index: 1;
+    flex-wrap: nowrap;   
+    width: 100%;
+}
+
+
+
+
+nav ul {
+    width: 50vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.ingreso{
+    border: solid 1px;
+    background-color: #00878A;
+    color: floralwhite;
+    padding: 1%;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+}

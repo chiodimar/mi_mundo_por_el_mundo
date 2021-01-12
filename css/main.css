@@ -1,0 +1,428 @@
+/* Cuadricula de GRID*/
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+.gridConteiner {
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: "header header header header" "slide slide slide slide" "loMasLedio loMasLedio loMasLedio loMasLedio" "recomendado recomendado recomendado recomendado" "footer footer footer footer";
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+  -ms-grid-rows: 0.3fr 1.3fr 1.3fr 1.3fr 0.2fr;
+      grid-template-rows: 0.3fr 1.3fr 1.3fr 1.3fr 0.2fr;
+}
+
+.headerGrid {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 4;
+  grid-area: header;
+  z-index: 2;
+}
+
+.slideGrid {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 4;
+  grid-area: slide;
+}
+
+.loMasLedioGrid {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 4;
+  grid-area: loMasLedio;
+}
+
+.recomendadoGrid {
+  -ms-grid-row: 4;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 4;
+  grid-area: recomendado;
+}
+
+.footerGrid {
+  -ms-grid-row: 5;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 4;
+  grid-area: footer;
+}
+
+/* Cuadricula de GRID*/
+/*Slide Boostrap*/
+#carouselExampleIndicators {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+h1 {
+  color: #006678;
+  font-family: 'Josefin Sans','Lato', sans-serif;
+  text-align: center;
+  font-size: 2em;
+}
+
+h2 {
+  color: #006678;
+  font-family: 'Josefin Sans', sans-serif;
+  text-align: center;
+  font-size: 1.3em;
+}
+
+h3 {
+  color: #006678;
+  font-family: 'Josefin Sans', sans-serif;
+  text-align: center;
+}
+
+h4 {
+  color: #006678;
+  font-family: 'Josefin Sans','Lato', sans-serif;
+  text-align: center;
+  font-size: 0.9em;
+}
+
+li {
+  list-style: none;
+  font-family: 'Josefin Sans', sans-serif;
+  color: gray;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+a:hover {
+  font-weight: 600;
+  text-decoration: none;
+  /* para que subraye los vinvulos del menu, pero se aplica a todo.
+    border-bottom:  1px solid #000;
+    padding-bottom: 15px;*/
+}
+
+header {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  background-color: white;
+  z-index: 1;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  width: 100%;
+}
+
+nav ul {
+  width: 50vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.ingreso {
+  border: solid 1px;
+  background-color: #00878A;
+  color: floralwhite;
+  padding: 1%;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/*footer*/
+footer {
+  margin-top: 70px;
+}
+
+footer p {
+  text-align: right;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.recomendado {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+/*GALERIA CON GRID*/
+.animacion {
+  -webkit-animation-duration: 1.5s;
+          animation-duration: 1.5s;
+  -webkit-animation-name: aparecer;
+          animation-name: aparecer;
+}
+
+@-webkit-keyframes aparecer {
+  0% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+
+@keyframes aparecer {
+  0% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+
+.gallery {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[8];
+      grid-template-columns: repeat(8, 1fr);
+  -ms-grid-rows: (5vw)[8];
+      grid-template-rows: repeat(8, 5vw);
+  grid-gap: 15px;
+  padding-right: 6%;
+  padding-left: 6%;
+  padding-top: 20px;
+}
+
+.gallery .imagenGallery {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.gallery .imagenGallery:hover {
+  -webkit-transform: scale(1.02, 1.02);
+          transform: scale(1.02, 1.02);
+}
+
+.foto1 {
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+  grid-column-end: 3;
+  -ms-grid-row: 1;
+      grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.foto2 {
+  -ms-grid-column: 3;
+      grid-column-start: 3;
+  grid-column-end: 5;
+  -ms-grid-row: 1;
+      grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.foto3 {
+  -ms-grid-column: 5;
+      grid-column-start: 5;
+  grid-column-end: 9;
+  -ms-grid-row: 1;
+      grid-row-start: 1;
+  grid-row-end: 6;
+}
+
+.foto4 {
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+  grid-column-end: 5;
+  -ms-grid-row: 3;
+      grid-row-start: 3;
+  grid-row-end: 6;
+}
+
+.foto5 {
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+  grid-column-end: 3;
+  -ms-grid-row: 6;
+      grid-row-start: 6;
+  grid-row-end: 8;
+}
+
+.foto6 {
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+  grid-column-end: 3;
+  -ms-grid-row: 6;
+      grid-row-start: 6;
+  grid-row-end: 9;
+}
+
+.foto7 {
+  -ms-grid-column: 3;
+      grid-column-start: 3;
+  grid-column-end: 7;
+  -ms-grid-row: 6;
+      grid-row-start: 6;
+  grid-row-end: 9;
+}
+
+.foto8 {
+  -ms-grid-column: 7;
+      grid-column-start: 7;
+  grid-column-end: 9;
+  -ms-grid-row: 6;
+      grid-row-start: 6;
+  grid-row-end: 9;
+}
+
+/*contacto*/
+#contacto {
+  font-family: 'Josefin Sans', sans-serif;
+  text-align: center;
+}
+
+/*tarjetas de index*/
+.tarjetas__MasLeido {
+  width: 100%;
+  max-width: 1200px;
+  height: 430px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: auto;
+}
+
+.tarjetas__MasLeido .tarjeta {
+  height: 430px;
+  width: 320px;
+  border-radius: 8px;
+  margin: 20px;
+  -webkit-box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+          box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  text-align: center;
+  -webkit-transition: all 0.25s;
+  transition: all 0.25s;
+}
+
+.tarjetas__MasLeido .tarjeta:hover {
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
+  -webkit-box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+          box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.tarjetas__MasLeido .tarjeta img {
+  width: 330;
+  height: 220px;
+}
+
+.tarjetas__MasLeido .tarjeta h3 {
+  font-weight: 500;
+  margin-top: 15px;
+}
+
+.tarjetas__MasLeido .tarjeta p {
+  padding: 0 1rem;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.tarjetas__MasLeido .tarjeta a {
+  font-weight: 500;
+  text-decoration: none;
+  color: #006678;
+}
+
+#recomendado {
+  margin-top: 70px;
+}
+
+.loMasLedioGrid {
+  margin-top: 30px;
+}
+
+/* css de quienes somos*/
+#parrafoQuienesSomos {
+  margin: 5% 15% 5% 15%;
+  color: #353333;
+  font-size: 20px;
+}
+
+/*RELATOS*/
+.contenedor__Relatos {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.contenedor__Relatos .linkRelatos {
+  height: 250px;
+  width: 300px;
+  /*background-color: lightblue;*/
+  border: 3 px solid black;
+  margin: 10px;
+  padding: 5px;
+  -webkit-box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+          box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.contenedor__Relatos .linkRelatos img {
+  height: 200px;
+  width: 300px;
+}
+
+.contenedor__Relatos .linkRelatos:hover {
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
+  -webkit-box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+          box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.texto__Relatos {
+  text-align: justify;
+  margin-right: 150px;
+  margin-left: 150px;
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  line-height: 25px;
+  font-family: 'Lato';
+  font-weight: 900;
+}
+
+#videoCinque {
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* FUENTES*/
+/*# sourceMappingURL=main.css.map */

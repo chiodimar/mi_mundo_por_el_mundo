@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Aqui podras ponerte en contacto con nosotros">
+	<meta name="keywords"  content="contacto">
+	<title>Contacto</title>
+	<link href="../css/estilo.css" rel="stylesheet" type="text/css">
+	<link href="../css/main.css" rel="stylesheet" type="text/css">
+	</head>
+<body>
+    <!--Aca empieza el encabezado -->
+	<header>
+		
+		<nav class="navbar navbar-expand-sm bg-white navbar-light d-flex align-items-center justify-content-around sticky-top">
+			<!-- Brand -->
+			<a class="navbar-brand" href="../index.html"><img id="logo" src="../images/horizontal_negro_PNG.png" alt="Mi mundo por el mundo" width="280" height="90"></a>
+		  
+			<!-- Toggler/collapsibe Button -->
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+			<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<!-- Links -->
+			<div class="collapse navbar-collapse" id="collapsibleNavbar">
+			<ul class="navbar-nav">
+			  <li class="nav-item">
+				<a class="nav-link" href="../pages/3_dias_en.html">Que hacer 3 dias</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="../pages/tips.html">Tips</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="../pages/quienes_somos.html">Quienes somos</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="../pages/contacto.html">Contacto</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="../pages/galeria.html">Galeria</a>
+			  </li>
+			
+			  <!-- Dropdown -->
+			  <li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle" href="pages/relatos.html" id="navbardrop" data-toggle="dropdown">
+				  Relatos
+				</a>
+				<div class="dropdown-menu">
+				  <a class="dropdown-item" href="../pages/relatos/del_otro_lado.html">Del otro lado del rompecabezas</a>
+				  <a class="dropdown-item" href="../pages/relatos/ensueño.html">Ensueño</a>
+				  <a class="dropdown-item" href="../pages/relatos/menos_mal_paris.html">Menos mal que les queda París</a>
+				  <a class="dropdown-item" href="../pages/relatos/despedida.html">Despedida</a>
+				  <a class="dropdown-item" href="../pages/relatos/palpitandoLondres.html">Palpitando Londres</a>
+				  <a class="dropdown-item" href="../pages/relatos/la_bestia_croata.html">La Bestia Croata</a>
+				</div>
+			  </li>
+			</ul>
+		  </div>
+		  </nav>
+	</header>
+		<!--Aca Termina el encabezado -->
+		<section id="contacto">
+			<h1 class="animacion">Contacto</h1>
+			<p>Completa tus datos y dejanos una opinion sobre el sitio, agradecemos tu colaboración</p>
+			<form name="formulario" action="#" method="GET" enctype="text/plain">
+				<label for="nombre">Nombre:</label>
+					<input type="text" name="nombre" placeholder="Ingrese su nombre"/><br><br>
+				<label for="apellido">Apellido:</label>
+					<input type="text" name="apellido" placeholder="Ingrese su apellido"/><br><br>
+				<label for="mail">Mail:</label>
+					<input type="email" name="email" placeholder="ejemplo@mail.com"/><br><br>
+				<label for="estado_civil">Estado Civil:</label>
+					<select name="estado_civil">
+						<option value="soltero/a">Soltero/a</option>
+						<option value="casado/a">Casado/a</option>
+					</select><br><br>
+				<label for="newsletter">Desea recibir newsletter?</label>
+					<input type="checkbox" name="newsletter" value="1"><br><br>
+				<textarea cols="80" rows="10" placeholder="Deja tu comentario aquí"></textarea><br><br>
+					<input type="submit" value="Enviar">
+					<input type="reset" value="Borrar datos cargados">
+			</form>
+		</section>
+
+        <!--Aca empieza el footer -->
+		<footer>
+			<p>mimundoporelmundo@gmail.com</p>
+			<div class="instagram"></div>
+		</footer>	
+		<!--Aca termina el footer -->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
