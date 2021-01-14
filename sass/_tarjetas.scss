@@ -1,5 +1,5 @@
 
-/*tarjetas de index*/
+/*tarjetas de index viejas, no va!
 .tarjetas__MasLeido{
     width: 100%;
     max-width: 1200px;
@@ -53,5 +53,24 @@
     margin-top: 30px;
 }
 
+*/
 
+.card:hover {
 
+    -webkit-transform: translateY(-10px);
+  
+    transform: translateY(-10px);
+  
+    -webkit-box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  
+  }
+  
+  .card a {
+  
+    font-weight: 500;
+  
+    color: #006678;
+  
+  }
