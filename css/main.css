@@ -7,8 +7,8 @@
       grid-template-areas: "header header header header" "slide slide slide slide" "loMasLedio loMasLedio loMasLedio loMasLedio" "recomendado recomendado recomendado recomendado" "footer footer footer footer";
   -ms-grid-columns: 1fr 1fr 1fr 1fr;
       grid-template-columns: 1fr 1fr 1fr 1fr;
-  -ms-grid-rows: 0.3fr 1.3fr 1.3fr 1.3fr 0.2fr;
-      grid-template-rows: 0.3fr 1.3fr 1.3fr 1.3fr 0.2fr;
+  -ms-grid-rows: 0.2fr 0.8fr 1.3fr 1.3fr 0.1fr;
+      grid-template-rows: 0.2fr 0.8fr 1.3fr 1.3fr 0.1fr;
 }
 
 .headerGrid {
@@ -77,6 +77,13 @@ h3 {
 }
 
 h4 {
+  color: #006678;
+  font-family: 'Josefin Sans','Lato', sans-serif;
+  text-align: center;
+  font-size: 0.9em;
+}
+
+h5 {
   color: #006678;
   font-family: 'Josefin Sans','Lato', sans-serif;
   text-align: center;
