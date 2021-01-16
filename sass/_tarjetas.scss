@@ -56,21 +56,22 @@
 */
 
 .card:hover {
-
     -webkit-transform: translateY(-10px);
-  
-    transform: translateY(-10px);
-  
-    -webkit-box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-  
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-  
+    transform: translateY(-10px); 
+    -webkit-box-shadow: 2px 2px 12px 6px rgba(83, 83, 83, 0.2);
+    box-shadow: 2px 2px 12px 6px rgba(83, 83, 83, 0.2);
   }
   
-  .card a {
-  
+  .card a {  
     font-weight: 500;
-  
-    color: #006678;
-  
+    color: #006678; 
+    margin-top: 2px; 
+  }
+
+  .card {
+    box-shadow: 1px 1px 1px 1px rgba(83, 83, 83, 0.2);
+  }
+
+  .card-title{
+      margin-bottom: 2px;
   }
