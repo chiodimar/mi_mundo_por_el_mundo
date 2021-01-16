@@ -419,8 +419,8 @@ footer p {
 
 .texto__Relatos {
   text-align: justify;
-  margin-right: 150px;
-  margin-left: 150px;
+  margin-right: 10%;
+  margin-left: 10%;
   font-size: 1.1rem;
   letter-spacing: 1px;
   word-spacing: 1px;
