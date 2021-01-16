@@ -159,23 +159,50 @@ nav ul {
   margin-bottom: 30px;
 }
 
-/*footer*/
 footer {
-  margin-top: 70px;
-}
-
-footer p {
-  text-align: right;
-  font-family: 'Josefin Sans', sans-serif;
-}
-
-.recomendado {
+  margin-top: 30px;
+  margin-bottom: 30px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.fa {
+  padding: 18px;
+  font-size: 28px;
+  width: 70px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  margin: 6px 15px;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background-image: -webkit-gradient(linear, left bottom, right top, from(#515bd4), color-stop(#5d55ce), color-stop(#674ec7), color-stop(#7047c0), color-stop(#783fb9), color-stop(#8839b3), color-stop(#9532ac), color-stop(#a12ba4), color-stop(#b4259b), color-stop(#c42290), color-stop(#d22486), to(#dd2a7b));
+  background-image: linear-gradient(to right top, #515bd4, #5d55ce, #674ec7, #7047c0, #783fb9, #8839b3, #9532ac, #a12ba4, #b4259b, #c42290, #d22486, #dd2a7b);
+  color: white;
 }
 
 /*GALERIA CON GRID*/
