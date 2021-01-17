@@ -1,54 +1,44 @@
-/* Cuadricula de GRID*/
-@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
-.gridConteiner {
-  display: -ms-grid;
-  display: grid;
-      grid-template-areas: "header header header header" "slide slide slide slide" "loMasLedio loMasLedio loMasLedio loMasLedio" "recomendado recomendado recomendado recomendado" "footer footer footer footer";
-  -ms-grid-columns: 1fr 1fr 1fr 1fr;
-      grid-template-columns: 1fr 1fr 1fr 1fr;
-  -ms-grid-rows: 0.2fr 0.8fr 1.3fr 1.3fr 0.1fr;
-      grid-template-rows: 0.2fr 0.8fr 1.3fr 1.3fr 0.1fr;
+/* Cuadricula de GRID
+.gridConteiner{
+    display: grid;
+    grid-template-areas: 
+    "header header header header"
+    "slide slide slide slide"
+    "loMasLedio loMasLedio loMasLedio loMasLedio"
+    "recomendado recomendado recomendado recomendado"
+    "footer footer footer footer";
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 0.2fr 0.8fr 1.3fr 1.3fr 0.1fr;
+
 }
 
-.headerGrid {
-  -ms-grid-row: 1;
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 4;
-  grid-area: header;
-  z-index: 2;
+.headerGrid{
+    grid-area: header;
+    z-index: 20;
+     
 }
-
-.slideGrid {
-  -ms-grid-row: 2;
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 4;
-  grid-area: slide;
+.slideGrid{
+    grid-area: slide;
+    
 }
-
-.loMasLedioGrid {
-  -ms-grid-row: 3;
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 4;
-  grid-area: loMasLedio;
+.loMasLedioGrid{
+    grid-area: loMasLedio;
+    
+    
 }
-
-.recomendadoGrid {
-  -ms-grid-row: 4;
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 4;
-  grid-area: recomendado;
+.recomendadoGrid{
+    grid-area: recomendado;
+    
+    
 }
-
-.footerGrid {
-  -ms-grid-row: 5;
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 4;
-  grid-area: footer;
-}
-
+.footerGrid{
+    grid-area: footer;  
+    
+}*/
 /* Cuadricula de GRID*/
 /*Slide Boostrap*/
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
 #carouselExampleIndicators {
   width: 100%;
   height: 100%;
@@ -126,12 +116,17 @@ header {
   position: sticky;
   top: 0px;
   background-color: white;
-  z-index: 1;
+  z-index: 20;
   -ms-flex-wrap: nowrap;
       flex-wrap: nowrap;
   width: 100%;
 }
 
+/*
+.dropdown-menu{
+    z-index: 20;
+}
+*/
 nav ul {
   width: 50vw;
   display: -webkit-box;
@@ -161,7 +156,7 @@ nav ul {
 
 footer {
   margin-top: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 5px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -171,9 +166,9 @@ footer {
 }
 
 .fa {
-  padding: 18px;
-  font-size: 28px;
-  width: 70px;
+  padding: 20px;
+  font-size: 30px;
+  width: 60px;
   text-align: center;
   text-decoration: none;
   border-radius: 50%;
@@ -405,6 +400,7 @@ footer {
 .card {
   -webkit-box-shadow: 1px 1px 1px 1px rgba(83, 83, 83, 0.2);
           box-shadow: 1px 1px 1px 1px rgba(83, 83, 83, 0.2);
+  height: 450px;
 }
 
 .card-title {
