@@ -2,37 +2,26 @@
 footer{
     margin-top: 30px;
     margin-bottom: 5px;
-    display: flex;
-    justify-content:center; 
     //border: solid 1px black; 
 }
-
-.fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 60px;
+.container__footer{
+    display: flex;
+    justify-content:center;
+}
+.row__footer{
+    margin-top: 20px;  
+}
+.row__footer img{
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+}
+.mail{
     text-align: center;
-    text-decoration: none;
-    border-radius: 50%;
-    margin: 6px 15px;      
+    margin-top: 20px;
 }
-.fa:hover {
-    opacity: 0.7;
-  }
-  
-.fa-facebook {
-    background: #3B5998;
-    color: white;
+@media only screen and (max-width: 1000px){
+.container_body{
+    flex-wrap: wrap;
 }
-.fa-linkedin {
-    background: #007bb5;
-    color: white;
-}
-.fa-youtube {
-    background: #bb0000;
-    color: white;
-}
-.fa-instagram {
-    background-image: linear-gradient(to right top, #515bd4, #5d55ce, #674ec7, #7047c0, #783fb9, #8839b3, #9532ac, #a12ba4, #b4259b, #c42290, #d22486, #dd2a7b);
-    color: white;
 }
