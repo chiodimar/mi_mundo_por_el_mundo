@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* Cuadricula de GRID
 .gridConteiner{
     display: grid;
@@ -455,6 +456,63 @@ footer {
 .video {
   text-align: center;
   margin-top: 50px;
+}
+
+/*Foto fija fondo*/
+/*ROMA*/
+.foto__fija1__roma {
+  background-image: url(../images/Coliseo-Romano.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 20em;
+  width: 100%;
+}
+
+.foto__fija2__roma {
+  background-image: url(../images/plaza_españa.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 20em;
+  width: 100%;
+}
+
+.foto__fija3__roma {
+  background-image: url(../images/Capilla_Sixtina.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 20em;
+  width: 100%;
+}
+
+/*PARIS*/
+.foto__fija1__paris {
+  background-image: url(../images/campo_marte.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 20em;
+  width: 100%;
+}
+
+.foto__fija2__paris {
+  background-image: url(../images/arco_del_triunfo.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 20em;
+  width: 100%;
+}
+
+.foto__fija3__paris {
+  background-image: url(../images/museo_lourve.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 20em;
+  width: 100%;
 }
 
 /* FUENTES*/
