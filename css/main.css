@@ -1,42 +1,4 @@
 @charset "UTF-8";
-/* Cuadricula de GRID
-.gridConteiner{
-    display: grid;
-    grid-template-areas: 
-    "header header header header"
-    "slide slide slide slide"
-    "loMasLedio loMasLedio loMasLedio loMasLedio"
-    "recomendado recomendado recomendado recomendado"
-    "footer footer footer footer";
-    grid-template-columns: 1fr 1fr 1fr 1fr ;
-    grid-template-rows: 0.2fr 0.8fr 1.3fr 1.3fr 0.1fr;
-
-}
-
-.headerGrid{
-    grid-area: header;
-    z-index: 20;
-     
-}
-.slideGrid{
-    grid-area: slide;
-    
-}
-.loMasLedioGrid{
-    grid-area: loMasLedio;
-    
-    
-}
-.recomendadoGrid{
-    grid-area: recomendado;
-    
-    
-}
-.footerGrid{
-    grid-area: footer;  
-    
-}*/
-/* Cuadricula de GRID*/
 /*Slide Boostrap*/
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
@@ -52,6 +14,7 @@ h1 {
   font-family: 'Josefin Sans','Lato', sans-serif;
   text-align: center;
   font-size: 2.2em;
+  z-index: 3;
 }
 
 h2 {
@@ -60,6 +23,7 @@ h2 {
   text-align: center;
   font-size: 2.2em;
   margin: 0.8em;
+  z-index: 3;
 }
 
 h3 {
@@ -98,9 +62,6 @@ a {
 a:hover {
   font-weight: 600;
   text-decoration: none;
-  /* para que subraye los vinvulos del menu, pero se aplica a todo.
-    border-bottom:  1px solid #000;
-    padding-bottom: 15px;*/
 }
 
 header {
@@ -123,11 +84,6 @@ header {
   width: 100%;
 }
 
-/*
-.dropdown-menu{
-    z-index: 20;
-}
-*/
 nav ul {
   width: 50vw;
   display: -webkit-box;
@@ -320,61 +276,6 @@ footer {
   text-align: center;
 }
 
-/*tarjetas de index viejas, no va!
-.tarjetas__MasLeido{
-    width: 100%;
-    max-width: 1200px;
-    height: 430px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: auto;
-}
-.tarjetas__MasLeido .tarjeta {
-    
-    height: 430px;
-    width: 320px;
-    border-radius: 8px;
-    margin: 20px;
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-    overflow: hidden;
-    text-align: center;
-    transition: all 0.25s;
-}
-
-.tarjetas__MasLeido .tarjeta:hover{
-    transform: translateY(-10px);
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-}
-
-.tarjetas__MasLeido .tarjeta img{
-    width: 330;
-    height: 220px;
-}
-.tarjetas__MasLeido .tarjeta h3{
-    font-weight: 500;
-    margin-top: 15px;
-
-}
-.tarjetas__MasLeido .tarjeta p{
-    padding: 0 1rem;
-    font-size: 16px;
-    font-weight: 300;
-}
-.tarjetas__MasLeido .tarjeta a{
-    font-weight: 500;
-    text-decoration: none;
-    color: #006678
-}
-#recomendado{
-    margin-top:70px;
-}
-
-.loMasLedioGrid{
-    margin-top: 30px;
-}
-
-*/
 .card:hover {
   -webkit-transform: translateY(-10px);
   transform: translateY(-10px);
@@ -421,7 +322,6 @@ footer {
 .contenedor__Relatos .linkRelatos {
   height: 250px;
   width: 300px;
-  /*background-color: lightblue;*/
   border: 3 px solid black;
   margin: 10px;
   padding: 5px;
