@@ -71,6 +71,7 @@ nav ul {
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
+    margin-left: 10%;
     
 }
 
@@ -82,4 +83,11 @@ nav ul {
     width: 100%;
     text-align: center;
     margin-bottom: 30px;
+}
+
+.slider__titulo{
+    color: white;
+    font-size:6em;
+    font-family: 'Josefin Sans','Lato', sans-serif;
+    text-align: left;
 }

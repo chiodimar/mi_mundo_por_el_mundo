@@ -99,6 +99,7 @@ nav ul {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+  margin-left: 10%;
 }
 
 .ingreso {
@@ -109,6 +110,13 @@ nav ul {
   width: 100%;
   text-align: center;
   margin-bottom: 30px;
+}
+
+.slider__titulo {
+  color: white;
+  font-size: 6em;
+  font-family: 'Josefin Sans','Lato', sans-serif;
+  text-align: left;
 }
 
 footer {
