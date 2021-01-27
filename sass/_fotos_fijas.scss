@@ -1,5 +1,15 @@
  /*Foto fija fondo*/
 /*ROMA*/
+.foto__portada__roma{
+    background-image: url(../images/Fontana_di_trevi.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 25em;
+    width: 100%;
+    margin-bottom: 3%;
+    }
+
+
 .foto__fija1__roma{
     background-image: url(../images/Coliseo-Romano.jpg);
     background-repeat: no-repeat;
@@ -26,6 +36,15 @@
           }
 
 /*PARIS*/
+.foto__portada__paris{
+    background-image: url(../images/museo_lourve.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 25em;
+    width: 100%;
+    margin-bottom: 3%;
+    }
+
 .foto__fija1__paris{
     background-image: url(../images/campo_marte.jpg);
     background-repeat: no-repeat;
@@ -51,6 +70,14 @@
           width: 100%;
           }
  /*MADRID*/
+ .foto__portada__madrid{
+    background-image: url(../images/Detalles-España2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 25em;
+    width: 100%;
+    margin-bottom: 3%;
+    }
 .foto__fija1__madrid{
     background-image: url(../images/Oso-y-el-Madroño.jpg);
     background-repeat: no-repeat;
