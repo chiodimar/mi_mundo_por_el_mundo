@@ -416,7 +416,25 @@ footer {
 
 /*PARIS*/
 .foto__portada__paris {
-  background-image: url(../images/museo_lourve.jpg);
+  background-image: url(../images/torre_eiffel.JPG);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 25em;
+  width: 100%;
+  margin-bottom: 3%;
+}
+
+.foto__moverse__paris {
+  background-image: url(../images/cartel_metro_paris.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 25em;
+  width: 100%;
+  margin-bottom: 3%;
+}
+
+.foto__aeropuerto__paris {
+  background-image: url(../images/estilo_frances.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 25em;
@@ -461,6 +479,34 @@ footer {
   margin-bottom: 3%;
 }
 
+.imagen_clasica {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2em;
+  height: 20%;
+  width: 50%;
+  border-radius: 5%;
+}
+
+.foto__aeropuerto__madrid {
+  background-image: url(../images/Detalles-España.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 25em;
+  width: 100%;
+  margin-bottom: 3%;
+}
+
+.foto__moverse__madrid {
+  background-image: url(../images/Casas-Madrileñas.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 25em;
+  width: 100%;
+  margin-bottom: 3%;
+}
+
 .foto__fija1__madrid {
   background-image: url(../images/Oso-y-el-Madroño.jpg);
   background-repeat: no-repeat;
@@ -486,6 +532,24 @@ footer {
   background-size: cover;
   height: 20em;
   width: 100%;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 70%;
+  margin: auto;
+  margin-bottom: 15px;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
 }
 
 /* FUENTES*/
